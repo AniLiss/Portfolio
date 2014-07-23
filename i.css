@@ -1,0 +1,11 @@
+.navbar-inverse{
+    background-image: linear-gradient(to bottom, #9c9c9c 0, #bababa 100%);
+    background-color: #bababa;
+}
+/*почему меню не реагирует на принудительное изменение цвета? =(*/
+.col1{
+    text-align: center;
+}
+.navbar-inverse .navbar-nav>li>a {
+    color: #fffdfd;
+}
