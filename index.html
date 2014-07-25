@@ -9,43 +9,112 @@
     <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
     <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script src="dist/js/bootstrap.min.js"></script>
-
 </head>
 <body>
-
-<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-
-    <div class="row">
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-
-            <div class="col-md-4">
-                <div class="col-md-offset-4">
-                <ul class="nav navbar-nav">
-                <li class="text-center"><a href="#">Выберите ваш город</a></li>
-                    </ul>
+<div class="container-fluid">
+    <div class="header">
+        <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+            <div class="row">
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <div class="col-md-4">
+                        <div class="col-md-offset-4">
+                            <ul class="nav navbar-nav">
+                                <li class="text-center"><a href="#"><p>Выберите ваш город</p></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-5">
+                        <ul class="navbar-inverse nav navbar-nav">
+                            <li><a href="#">Адреса магазинов</a></li>
+                            <li><a href="#">Вакансии</a></li>
+                            <li><a href="#">Доставка</a></li>
+                            <li><a href="#">Оплата</a></li>
+                            <li><a href="#">Помощь</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3">
+                        <ul class="nav navbar-nav">
+                            <li class="active"><a href="#">Вход</a></li>
+                            <li class="active"><a href="#">Регистрация</a></li>
+                        </ul>
+                    </div>
                 </div>
             </div>
-                <div class="col-md-5">
-                    <ul class="navbar-inverse nav navbar-nav">
-                        <li><a href="#">Адреса магазинов</a></li>
-                        <li><a href="#">Вакансии</a></li>
-                        <li><a href="#">Доставка</a></li>
-                        <li><a href="#">Оплата</a></li>
-                        <li><a href="#">Помощь</a></li>
-
-                    </ul>
-                </div>
-                <div class="col-md-3">
-                    <ul class="nav navbar-nav">
-                        <li class="active"><a href="#">Вход</a></li>
-                        <li class="active"><a href="#">Регистрация</a></li>
-                        </ul>
-                </div>
-
-
-
         </div>
     </div>
+    <div class="row">
+        <table class="table">
+            <thead>
+            <tr>
+                <th>
+                    <div class="col-md-offset-5"><a href="#"><img src="э.png"></a></div>
+                </th>
+                <th>
+                    <div class="col-md-offset-3 col-md-2"><img src="т.png"></div>
+                </th>
+                <th>
+                    <div class="col-md-3 col-md-offset-1"><a href="#"><img src="с.png"></a></div>
+                </th>
+
+                <th>
+                    <div class="col-md-3 pink"><a href="#"><img src="к.png">Корзина</a></div>
+                </th>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+            <tr>
+            </thead>
+            <tbody></tbody>
+        </table>
     </div>
+    <div class="row">
+        <div class="col-md-2 col-md-offset-1">
+            <div class="btn-group">
+                <button class="btn btn-default btn-lg dropdown-toggle" type="button" data-toggle="dropdown">
+                    Каталог товаров<span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu" role="menu">
+                    <li><a href="#">Телевизоры и видео</a>
+                        <ul>
+                            <li><a href="#">...</a></li>
+                            <li><a href="#">...</a></li>
+                            <li><a href="#">...</a></li>
+                            <li><a href="#">...</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Компьютеры, планшеты и ноутбуки</a></li>
+                    <li><a href="#">Телефон и связь</a></li>
+                    <li><a href="#">Техника для кухни</a></li>
+                    <li><a href="#">Встраиваемая техника</a></li>
+                    <li><a href="#">Техника для дома</a></li>
+                    <li><a href="#">Товары для дома, сада и ремонта</a></li>
+                    <li><a href="#">Аудиотехника</a></li>
+                    <li><a href="#">Фото и видео</a></li>
+                    <li><a href="#">Красота и здоровье</a></li>
+                    <li><a href="#">Автомобильная электроника</a></li>
+                    <li><a href="#">Игры, софт, развлечения</a></li>
+                    <li><a href="#">Товары для детей и мам</a></li>
+                    <li><a href="#">Аксесуары</a></li>
+                    <li><a href="#">Телевизоры</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class=" input-group-btn search">
+                <input type="text" class="form-control" placeholder="Поиск">
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="btn">
+                <button class="btn btn-default btn-toolbar dropdown-toggle" type="button">
+                    <b>Найти</b>
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+</div>
 </body>
 </html>

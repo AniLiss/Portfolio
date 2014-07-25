@@ -1,11 +1,73 @@
-.navbar-inverse{
+.container-fluid{
+    position: fixed;
+    width: 100% !important;
+}
+.navbar-inverse {
     background-image: linear-gradient(to bottom, #9c9c9c 0, #bababa 100%);
     background-color: #bababa;
 }
+
 /*почему меню не реагирует на принудительное изменение цвета? =(*/
-.col1{
+.col1 {
     text-align: center;
 }
-.navbar-inverse .navbar-nav>li>a {
+
+.navbar-inverse .navbar-nav > li > a {
     color: #fffdfd;
+}
+.table {
+    margin-top: 57px;
+}
+
+.pink a {
+    color: #e1265d;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.text-center p {
+    border-bottom: 1px dotted #c5c5c5;
+}
+
+.btn{
+    padding-top: -5px;
+}
+.dropdown-menu li:hover ul {
+    display: block;
+}
+
+.dropdown-menu ul {
+    margin: 0px;
+    padding-left: 20px;
+    list-style: none;
+    width: 800px;
+}
+
+.dropdown-menu ul {
+    position: relative;
+}
+
+.dropdown-menu li ul {
+    position: absolute;
+    left: 200px;
+    top: 0;
+    display: none;
+}
+
+.dropdown-menu ul li a {
+    display: block;
+    text-decoration: none;
+    color: #777;
+    background: #fff;
+    padding: 5px;
+}
+
+.dropdown-menu ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    width: 200px;
+}
+.search {
+    padding-top: 9px;
 }
