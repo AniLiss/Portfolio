@@ -1,7 +1,8 @@
-.container-fluid{
-    position: fixed;
+.container-fluid {
     width: 100% !important;
+    padding-left: 0px !important;
 }
+
 .navbar-inverse {
     background-image: linear-gradient(to bottom, #9c9c9c 0, #bababa 100%);
     background-color: #bababa;
@@ -15,7 +16,8 @@
 .navbar-inverse .navbar-nav > li > a {
     color: #fffdfd;
 }
-.table {
+
+.underheader table {
     margin-top: 57px;
 }
 
@@ -29,9 +31,10 @@
     border-bottom: 1px dotted #c5c5c5;
 }
 
-.btn{
+.btn {
     padding-top: -5px;
 }
+
 .dropdown-menu li:hover ul {
     display: block;
 }
@@ -68,6 +71,233 @@
     list-style: none;
     width: 200px;
 }
+
 .search {
     padding-top: 9px;
+}
+
+.table {
+    margin-bottom: 0px !important;
+}
+
+.service a {
+    color: #3bb536;
+}
+
+.stock a {
+    color: #e1265d;
+}
+
+.newspaper a {
+    color: #0F68B1;
+}
+
+.club a {
+    color: #00ABBD;
+}
+
+.item a {
+    color: #FF8400;
+}
+
+.line {
+    margin: 0 0 10px;
+    width: 100%;
+    height: 1px;
+    background: #ECEDEE;
+}
+
+.section {
+    color: #7f868e;
+    font-size: 11px;
+    line-height: 32px;
+    vertical-align: top;
+    margin: 12px 35px 15px;
+}
+
+.catalog_header h1 {
+    color: #c51a3c;
+    font-family: 'PT Sans Narrow', Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 27px;
+    line-height: 30px;
+    margin: 15px 35px 20px;
+    font-weight: bold;
+    display: block;
+}
+
+.catalog_of_items {
+    overflow: hidden;
+    height: auto;
+    width: 100%;
+    margin-top: 30px;
+    margin-left: 20px;
+    padding-right: 10px;
+    color: #3F454B;
+
+}
+
+.mainHits {
+    width: 170px;
+    height: 267px;
+    float: left;
+    text-align: center;
+    margin: 0 10px;
+}
+
+.mainHitsHeader {
+    border-bottom: 1px solid;
+    border-bottom-color: #EDBAC4;
+    color: #C51A3C;
+    text-decoration: none;
+    cursor: auto;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.container div {
+    display: block;
+}
+
+.mainHitsPic {
+    margin: 18px 0 3px 0;
+}
+
+.noborder {
+    border: none;
+}
+
+.mainHitsName {
+    border-bottom: 1px solid #B7D1E7;
+    color: #0F68B1;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 11px;
+    cursor: auto;
+}
+
+.mainHitsPrice {
+    margin-top: 5px;
+    font-size: 12px;
+}
+
+.rub {
+    font-size: 90%;
+}
+
+.submenu {
+    color: #7F868E;
+    margin: 20px 40px;
+}
+
+.submenuLink {
+    color: #42484d;
+    border-bottom: 1px solid #c5c7c9;
+    font-size: 11px;
+    line-height: 29px;
+    vertical-align: top;
+}
+
+a:hover, a.hovered {
+    border-bottom-color: #EDBAC4;
+    color: #C51A3C !important;
+}
+
+.underhead {
+    margin-left: 0px;
+}
+
+.com_bn button {
+    height: 50px;
+    width: 1141px;
+    margin: 10px 0 20px 0;
+    color: #000000;
+    background: #ffffff;
+    background-color: #FCFCFC !important;
+
+}
+
+.com_bn span {
+    float: left;
+    width: 285px;
+    font-size: 18px;
+    line-height: 24px;
+    display: block;
+}
+
+.mainSocialIcons {
+    float: right;
+    width: 270px;
+    line-height: 24px;
+}
+
+.mainSocialIcons ul {
+    list-style: none;
+}
+
+.socialIcon {
+    height: 24px;
+    width: 24px;
+    display: block;
+    background: url('file:///C:/Users/Elizabeth/Project/eldorado/socialIcons.png') no-repeat;
+}
+
+li {
+    display: inline-block;
+}
+
+.Twitter:hover {
+    background-position: 0 0;
+}
+
+.Twitter {
+    background-position: 0 100%;
+}
+
+.Fb {
+    background-position: -31px 100%;
+}
+
+.Fb:hover {
+    background-position: -31px 0;
+}
+
+.GPlus {
+    background-position: -62px 100%;
+}
+
+.GPlus:hover {
+    background-position: -62px 0;
+}
+
+.Vk {
+    background-position: -93px 100%;
+}
+
+.Vk:hover {
+    background-position: -93px 0;
+}
+
+.Ok {
+    background-position: -124px 100%;
+}
+
+.Ok:hover {
+    background-position: -124px 0;
+}
+
+.YouTube {
+    background-position: -154px 100%;
+}
+
+.YouTube:hover {
+    background-position: -154px 0;
+}
+
+.Insta {
+    background-position: -180px 100%;
+}
+
+.Insta:hover {
+    background-position: -180px 0;
 }
