@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Eldorado</title>
+    <title>Shell</title>
     <meta charset="utf-8">
     <link rel="stylesheet" href="i.css">
     <link rel="stylesheet" href="bootstrap/dist/css/bootstrap.min.css">
@@ -12,35 +12,39 @@
 </head>
 <body>
 <div class="container-fluid">
-<!--HEAD-->
-<div class="header">
-    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-        <div class="row">
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <div class="col-md-4">
-                    <div class="col-md-offset-4">
+    <!--HEAD-->
+    <div class="header">
+        <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+            <div class="container-fluid">
+
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#">Краснодар</a>
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <!-- <span class="sr-only">Toggle navigation</span>-->
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="middle">
+                    <div class="navbar-collapse collapse">
                         <ul class="nav navbar-nav">
-                            <li class="text-center"><a href="#"><p>Выберите ваш город</p></a></li>
+                            <li><a href="#">Адреса магазинов</a></li>
+                            <li><a href="#">Доставка</a></li>
+                            <li><a href="#">Оплата</a></li>
+                            <li><a href="#">Вакансии</a></li>
+                            <li><a href="#">Все для бизнеса</a></li>
                         </ul>
+                        <div class="header-right">
+                            <ul class="nav navbar-nav navbar-right">
+                                <li><a href="#">Вход</a></li>
+                                <li><a href="#">Регистрация</a></li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
-                <div class="col-md-5">
-                    <ul class="navbar-inverse nav navbar-nav">
-                        <li><a href="#">Адреса магазинов</a></li>
-                        <li><a href="#">Вакансии</a></li>
-                        <li><a href="#">Доставка</a></li>
-                        <li><a href="#">Оплата</a></li>
-                        <li><a href="#">Помощь</a></li>
-                    </ul>
-                </div>
-                <div class="col-md-3">
-                    <ul class="nav navbar-nav">
-                        <li class="active"><a href="#">Вход</a></li>
-                        <li class="active"><a href="#">Регистрация</a></li>
-                    </ul>
-                </div>
             </div>
-        </div>
+        </nav>
     </div>
 </div>
 <div class="underheader">
@@ -49,7 +53,7 @@
             <thead>
             <tr>
                 <th>
-                    <div class="col-md-offset-5"><a href="#"><img src="eldorado.png"></a></div>
+                    <div class="col-md-offset-5"><a href="#"><img src="label.png"></a></div>
                 </th>
                 <th>
                     <div class="col-md-offset-3 col-md-2"><img src="telephone_numbers.png"></div>
@@ -59,7 +63,11 @@
                 </th>
 
                 <th>
-                    <div class="col-md-3 pink"><a href="#"><img src="box.png">Корзина</a></div>
+                    <div class="col-md-3 pink"><a href="#"><img src="box.png">Корзина</a>
+
+                        <div class="overbox"><a><img src="Good_sum.png"></a>
+                        </div>
+                    </div>
                 </th>
                 <th></th>
                 <th></th>
@@ -137,8 +145,8 @@
                     </div>
                 </div>
                 <div class="club">
-                    <div class="col-md-2">
-                        <a href="#"><a href="#"><img src="eldorado_club.png"> Клуб Эльдорадо</a></a>
+                    <div class="col-md-1">
+                        <a href="#"><a href="#"><img src="club.png"> Клуб </a></a>
                     </div>
                 </div>
                 <div class="item">
@@ -164,6 +172,11 @@
 <div class="catalog_of_items">
 
     <div class="mainHits">
+        <div class="overpic">
+            <a title="Мобильный телефон SAMSUNG GT-E1200M Keystone2 Black" class="noBorder" href="#">
+                <img src="mobilePhones.jpg">
+            </a>
+        </div>
         <a class="mainHitsHeader" href="#" title="Сотовые телефоны">Сотовые телефоны</a>
 
         <div class="mainHitsPic">
@@ -249,7 +262,6 @@
         </div>
     </div>
 
-
     <div class="mainHits">
         <a class="mainHitsHeader" href="#" title="Домашние телефоны">Домашние телефоны</a>
 
@@ -329,72 +341,35 @@
     <span class="underhead section"> Телефоны и связь</span>
 </div>
 
-<div class="com_bn">
-    <button type="button" class="btn btn-default">
-        <span class="helpAsk">Затрудняетесь с выбором?</span>
-            <span class="helpQuestion">
-                Мы поможем - <b>8 495 647-02-02</b>
-            </span>
-
-    <div class="socialIcons">
-        <ul>
-            <li>
-                <a href="http://twitter.com/eldorado_stores" target="_blank" class="Icon Tw"></a>
-            </li>
-            <li>
-                <a href="http://www.facebook.com/Eldorado.Stores" target="_blank" class="Icon Fb"></a>
-            </li>
-            <li>
-                <a href="https://plus.google.com/u/0/116636673175550063887/posts" target="_blank"
-                   class="Icon Gp"></a>
-            </li>
-            <li>
-                <a href="http://vkontakte.ru/eldorado_stores" target="_blank" class="lIcon Vk"></a>
-            </li>
-            <li>
-                <a href="http://www.odnoklassniki.ru/eldorado_stores" target="_blank" class="Icon Ok"></a>
-            </li>
-            <li>
-                <a href="http://www.youtube.com/user/eldoradovideo" target="_blank" class="Icon YouTube"></a>
-            </li>
-            <li>
-                <a href="http://instagram.com/eldorado_stores" target="_blank" class="Icon Insta"></a>
-            </li>
-        </ul>
-    </div>
-
-    </button>
-</div>
-<!-- the matter is  the button-->
-
 <div class="tabl">
     <span class="helpAsk">Затрудняетесь с выбором?</span>
             <span class="helpQuestion">
                 Мы поможем - <b>8 495 647-02-02</b>
             </span>
+
     <div class="socialIcons">
         <ul>
             <li>
-                <a href="http://twitter.com/eldorado_stores" target="_blank" class="Icon Tw"></a>
+                <a href="http://twitter.com" target="_blank" class="Icon Tw"></a>
             </li>
             <li>
-                <a href="http://www.facebook.com/Eldorado.Stores" target="_blank" class="Icon Fb"></a>
+                <a href="http://www.facebook.com" target="_blank" class="Icon Fb"></a>
             </li>
             <li>
-                <a href="https://plus.google.com/u/0/116636673175550063887/posts" target="_blank"
+                <a href="https://plus.google.com" target="_blank"
                    class="Icon Gp"></a>
             </li>
             <li>
-                <a href="http://vkontakte.ru/eldorado_stores" target="_blank" class="lIcon Vk"></a>
+                <a href="http://vkontakte.ru" target="_blank" class="lIcon Vk"></a>
             </li>
             <li>
-                <a href="http://www.odnoklassniki.ru/eldorado_stores" target="_blank" class="Icon Ok"></a>
+                <a href="http://www.odnoklassniki.ru" target="_blank" class="Icon Ok"></a>
             </li>
             <li>
-                <a href="http://www.youtube.com/user/eldoradovideo" target="_blank" class="Icon YouTube"></a>
+                <a href="http://www.youtube.com" target="_blank" class="Icon YouTube"></a>
             </li>
             <li>
-                <a href="http://instagram.com/eldorado_stores" target="_blank" class="Icon Insta"></a>
+                <a href="http://instagram.com" target="_blank" class="Icon Insta"></a>
             </li>
         </ul>
     </div>
@@ -405,45 +380,88 @@
 <div class="footer">
 
     <div class="container">
+        <nav class="footerMenu">
+            <div class="frame">
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="footerMenuItem footerMenuItemHd"><a target="_self" href="#"
+                                                                        title="Помощь покупателю">Помощь покупателю</a>
+                        </div>
+                        <div class="footerMenuItem">
+                            <a href="#" title="Как зарегистрироваться">Как зарегистрироваться</a>
+                        </div>
+                        <div class="footerMenuItem"><a href="#" title="Как сделать заказ">Как сделать заказ</a></div>
+                        <div class="footerMenuItem"><a href="#" title="Оплата">Оплата</a></div>
+                        <div class="footerMenuItem"><a href="#" title="Доставка">Доставка</a></div>
+                        <div class="footerMenuItem"><a href="#" title="Самовывоз">Самовывоз</a></div>
+                        <div class="footerMenuItem"><a href="#" title="Поможем выбрать">Поможем выбрать</a></div>
+                        <div class="footerMenuItem"><a href="#" title="Обратная связь">Обратная связь</a></div>
+                    </div>
 
-    <nav class="footerMenu">
-        <ul class="footerMenuCol">
-            <li class="footerMenuItem footerMenuItemHd"><a target="_self" href="#" title="Помощь покупателю">Помощь покупателю</a></li>
-            <li class="footerMenuItem"><a href="#" title="Как зарегистрироваться">Как зарегистрироваться</a></li>
-            <li class="footerMenuItem"><a href="#" title="Как сделать заказ">Как сделать заказ</a></li>
-            <li class="footerMenuItem"><a href="#" title="Оплата">Оплата</a></li>
-            <li class="footerMenuItem"><a href="#" title="Доставка">Доставка</a></li>
-            <li class="footerMenuItem"><a href="#" title="Самовывоз">Самовывоз</a></li>
-            <li class="footerMenuItem"><a href="#" title="Поможем выбрать">Поможем выбрать</a></li>
-            <li class="footerMenuItem"><a href="#" title="Обратная связь">Обратная связь</a></li>
-        </ul>
-        <ul class="footerMenuCol">
-            <li class="footerMenuItem footerMenuItemHd"><a target="_self" href="" title="Информация для покупателя">Информация для покупателя</a></li>
-            <li class="footerMenuItem"><a href="" title="Политика конфиденциальности">Политика конфиденциальности</a></li>
-            <li class="footerMenuItem"><a href="" title="Гарантии Эльдорадо">Гарантии Эльдорадо</a></li>
-            <li class="footerMenuItem"><a href="" title="Обмен и возврат">Обмен и возврат</a></li>
-            <li class="footerMenuItem"><a href="" title="Условия продажи в интернет-магазине">Условия продажи в интернет-магазине</a></li>
-            <li class="footerMenuItem"><a href="" title="Бонусная программа «Клуб Эльдорадо»">Бонусная программа «Клуб Эльдорадо»</a></li>
-            <li class="footerMenuItem"><a href="" title="Подарочные карты Эльдорадо">Подарочные карты Эльдорадо</a></li>
-            <li class="footerMenuItem"><a href="" title="Сервисная служба">Сервисная служба</a></li>
-            <li class="footerMenuItem"><a href="" title="Кредит">Кредит</a></li>
-        </ul>
-        <ul class="footerMenuCol">
-            <li class="footerMenuItem footerMenuItemHd"><a target="_self" href="" title="О компании">О компании</a></li>
-            <li class="footerMenuItem"><a href="" title="Социальная ответственность">Социальная ответственность</a></li>
-            <li class="footerMenuItem"><a href="" title="Реклама на сайте">Реклама на сайте</a></li>
-            <li class="footerMenuItem"><a href="" title="Арендодателям">Арендодателям</a></li>
-            <li class="footerMenuItem"><a href="" title="Арендаторам">Арендаторам</a></li>
-            <li class="footerMenuItem"><a href="" title="Контакты">Контакты</a></li>
-        </ul>
-        <ul class="footerMenuCol last-child">
-            <li class="footerMenuItem footerMenuItemHd"><a target="_self" href="" title="Тендеры">Тендеры</a></li>
-            <li class="footerMenuItem"><a href="" title="Система проведения конкурсов и выбора поставщиков SAP SRM">Система проведения конкурсов и выбора поставщиков SAP SRM</a></li>
-            <li class="footerMenuItem"><a href="" title="Стандартные документы">Стандартные документы</a></li>
-            <li class="footerMenuItem"><a href="" title="График тендеров">График тендеров</a></li>
-        </ul>
-    </nav>
-</div>
+                    <div class="col-md-3">
+                        <div class="footerMenuItem footerMenuItemHd"><a target="_self" href=""
+                                                                        title="Информация для покупателя">Информация для
+                            покупателя</a></div>
+                        <div class="footerMenuItem"><a href="" title="Политика конфиденциальности">Политика
+                            конфиденциальности</a></div>
+                        <div class="footerMenuItem"><a href="" title="Гарантии Эльдорадо">Гарантии Эльдорадо</a></div>
+                        <div class="footerMenuItem"><a href="" title="Обмен и возврат">Обмен и возврат</a></div>
+                        <div class="footerMenuItem"><a href="" title="Условия продажи в интернет-магазине">Условия
+                            продажи в интернет-магазине</a></div>
+                        <div class="footerMenuItem"><a href="" title="Бонусная программа «Клуб Эльдорадо»">Бонусная
+                            программа «Клуб Эльдорадо»</a></div>
+                        <div class="footerMenuItem"><a href="" title="Подарочные карты Эльдорадо">Подарочные карты
+                            Эльдорадо</a></div>
+                        <div class="footerMenuItem"><a href="" title="Сервисная служба">Сервисная служба</a></div>
+                        <div class="footerMenuItem"><a href="" title="Кредит">Кредит</a></div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="footerMenuItem footerMenuItemHd"><a target="_self" href="" title="О компании">О
+                            компании</a></div>
+                        <div class="footerMenuItem"><a href="" title="Социальная ответственность">Социальная
+                            ответственность</a></div>
+                        <div class="footerMenuItem"><a href="" title="Реклама на сайте">Реклама на сайте</a></div>
+                        <div class="footerMenuItem"><a href="" title="Арендодателям">Арендодателям</a></div>
+                        <div class="footerMenuItem"><a href="" title="Арендаторам">Арендаторам</a></div>
+                        <div class="footerMenuItem"><a href="" title="Контакты">Контакты</a></div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="footerMenuItem footerMenuItemHd"><a target="_self" href=""
+                                                                        title="Тендеры">Тендеры</a></div>
+                        <div class="footerMenuItem"><a href=""
+                                                       title="Система проведения конкурсов и выбора поставщиков SAP SRM">Система
+                            проведения конкурсов и выбора поставщиков SAP SRM</a></div>
+                        <div class="footerMenuItem"><a href="" title="Стандартные документы">Стандартные документы</a>
+                        </div>
+                        <div class="footerMenuItem"><a href="" title="График тендеров">График тендеров</a></div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="footer">
+            <div class="row">
+                <div class="col-md-3">
+                    <p> Принимаем к оплате</p>
+                    <a><img src="visa.png"></a>
+                </div>
+
+                <div class="col-md-3">
+                    <span class="eld">© Company, 2006—2014</span>
+                    <span class="eldo">Цены в розничных магазинах могут отличаться от цен, указанных на сайте</span>
+                    <span class="eldor"> <a href="#">Rambler's Top100</a></span>
+                </div>
+                <div class="col-md-3">
+                    <div class="footpic"><a href="#"></a><img src="lots_of.png"></a></div>
+                    <div class="lamd"><a href="#"><img src="lamoda.png"></a></div>
+                </div>
+                <div class="col-md-3">
+                    <a href="#"></a><img src="participator.png"></a>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 </div>
 </body>

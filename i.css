@@ -1,20 +1,31 @@
 .container-fluid {
     width: 100% !important;
     padding-left: 0px !important;
+    position: relative;
 }
 
-.navbar-inverse {
-    background-image: linear-gradient(to bottom, #9c9c9c 0, #bababa 100%);
-    background-color: #bababa;
+.navbar-header {
+    padding-left: 100px;
 }
 
-/*почему меню не реагирует на принудительное изменение цвета? =(*/
+.navbar-header a:hover {
+    color: #ebcc09 !important;
+    opacity: 0.5;
+    transition: color 0.9s, ease;
+}
+
+.middle li a:hover {
+    color: #ebcc09 !important;
+    opacity: 0.5;
+    transition: color 0.9s, ease;
+}
+
+.header-right {
+    padding-right: 100px;
+}
+
 .col1 {
     text-align: center;
-}
-
-.navbar-inverse .navbar-nav > li > a {
-    color: #fffdfd;
 }
 
 .underheader table {
@@ -25,6 +36,27 @@
     color: #e1265d;
     text-decoration: underline;
     font-weight: bold;
+    position: relative;
+}
+
+.pink .overbox {
+    position: absolute;
+    display: none;
+    wide: 100px;
+    top: -50;
+    z-index: 7;
+    padding: 1px;
+    /* opacity: 0.7;*/
+    border-radius: 5px;
+    background: #4a5965;
+}
+
+.pink:hover .overbox {
+    display: block;
+}
+
+.pink .overbox img {
+    border-radius: 5px;
 }
 
 .text-center p {
@@ -135,10 +167,30 @@
     margin-left: 20px;
     padding-right: 10px;
     color: #3F454B;
+}
 
+.mainHits .overpic {
+    display: none;
+    position: absolute;
+    width: 250px;
+    height: 350px;
+    background: #fff;
+    left: -20px;
+    top: 40px;
+    z-index: 10;
+    opacity: 0.5;
+}
+
+.mainHits:hover .overpic {
+    display: block;
+}
+
+.mainHits .overpic img {
+    width: 200px;
 }
 
 .mainHits {
+    position: relative;
     width: 170px;
     height: 267px;
     float: left;
@@ -198,33 +250,14 @@
     vertical-align: top;
 }
 
-a:hover, a.hovered {
+.body a:hover, .body a.hovered {
     border-bottom-color: #EDBAC4;
-    color: #C51A3C !important;
+    color: #C51A3C;
 }
 
 .underhead {
     margin-left: 0px;
 }
-
-.com_bn button {
-    height: 50px;
-    width: 1141px;
-    margin: 10px 0 20px 0;
-    color: #000000;
-    background: #ffffff;
-    background-color: #FCFCFC !important;
-
-}
-
-.com_bn span {
-    float: left;
-    width: 285px;
-    font-size: 18px;
-    line-height: 24px;
-    display: block;
-}
-
 
 .socialIcons {
     float: right;
@@ -242,6 +275,7 @@ a:hover, a.hovered {
     display: block;
     background: url('http://static.eldorado.ru/static/images/redesign2/socialIcons.png') no-repeat;
 }
+
 a.socialIcon {
     transition: none;
 }
@@ -249,18 +283,20 @@ a.socialIcon {
 li {
     display: inline-block;
 }
-.Tw{
+
+.Tw {
     background-position: 0 100%;
 }
 
 .Tw:hover {
     background-position: 0 0;
 }
+
 .Fb {
     background-position: -31px 100%;
 }
 
-.Fb:hover{
+.Fb:hover {
     background-position: -31px 0px;
 }
 
@@ -303,7 +339,8 @@ li {
 .Insta:hover {
     background-position: -180px 0;
 }
-.tabl{
+
+.tabl {
     text-align: center;
     height: 50px;
     width: 1141px;
@@ -314,6 +351,7 @@ li {
     border-radius: 8px;
     border: 1px #D6D6D6 solid
 }
+
 .tabl span {
     float: left;
     width: 285px;
@@ -322,7 +360,8 @@ li {
     display: block;
     padding: 10px;
 }
-.downTable{
+
+.downTable {
     text-align: center;
     height: auto;
     width: 1141px;
@@ -332,6 +371,82 @@ li {
     border-radius: 10px;
     border: 1px #000000 solid;
     box-shadow: inset 0 2px 5px -1px #444;
-    background: linear-gradient(to bottom, #686d70 0%,#3b3b3b 100%);
+    background: linear-gradient(to bottom, #686d70 0%, #3b3b3b 100%);
 
+}
+
+.row .footerMenuItemHd a {
+    font-size: 13px;
+    font-weight: bold;
+    color: #FFF;
+}
+
+.footerMenuItem a {
+    text-decoration: underline;
+    line-height: 1.8;
+    -moz-transition: color 0.9s, ease;
+    transition: color 0.9s, ease;
+}
+
+.footerMenuItem a, .footerMenuItem a:visited {
+    color: #EEE;
+    opacity: 0.8;
+}
+
+.footerMenuItem:hover a, .footerMenuItem:hover a:focus {
+    color: #ebcc09;
+}
+
+.footerMenuItem {
+    font-size: 11px;
+}
+
+.frame {
+    background: #444;
+    border-radius: 7px;
+    padding: 20px;
+    margin: 0 0 20px;
+}
+
+.footer .col-md-3 a img {
+    display: block;
+}
+
+.footer .col-md-3 span {
+    display: block;
+}
+
+.col-md-3 span.eldo {
+    display: block;
+    margin: 10px 0 10px;
+    font-size: 11px;
+    color: #797979;
+}
+
+.col-md-3 span.eld {
+    display: block;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.eldor {
+    display: block;
+    font-size: 12px;
+}
+
+.col-md-3 p {
+    font-size: 12px;
+}
+
+.eldor a:hover {
+    color: #e1265d
+}
+
+.footpic {
+    display: block;
+}
+
+.lamd {
+    display: block;
+    margin: 15px 0 10px;
 }
