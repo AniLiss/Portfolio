@@ -20,6 +20,16 @@
     transition: color 0.9s, ease;
 }
 
+@media (max-width: 1200px ) {
+    .middle a {
+        font-size: 10px;
+    }
+
+    .middle .nav li a {
+        padding: 15px 7px;
+    }
+}
+
 .header-right {
     padding-right: 100px;
 }
@@ -189,13 +199,15 @@
     width: 200px;
 }
 
-.mainHits {
+.catalog_of_items .mainHits {
     position: relative;
     width: 170px;
     height: 267px;
-    float: left;
+    /*float: left;*/
     text-align: center;
-    margin: 0 10px;
+    vertical-align: top;
+    display: inline-block;
+    /* margin: 0 10px;*/
 }
 
 .mainHitsHeader {
